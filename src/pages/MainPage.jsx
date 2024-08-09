@@ -43,7 +43,7 @@ const MainPage = ({setIsLoading,setIsAuthenticated}) => {
           <Dropdown
             arrowIcon={false}
           inline
-          label={<Avatar alt="User settings"  img="src/assets/img/avatar.jpg" rounded />}
+          label={<Avatar alt="User settings"  img="https://gamedash-ahavazdpaygvh6gr.eastus-01.azurewebsites.net/avatar.jpg" rounded />}
         >
           <Dropdown.Item onClick={()=>logout()}>Sign out</Dropdown.Item>
         </Dropdown>
