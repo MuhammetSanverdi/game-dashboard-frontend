@@ -2,7 +2,7 @@ import axios from "axios";
 import ToastService from "../services/ToastService";
 
 //const api = axios.create({ baseURL: "https://localhost:7052/api/" });
-const api = axios.create({ baseURL: "https://localhost:7161/api/" });
+const api = axios.create({ baseURL: "https://gamedashboard1.azurewebsites.net/api/" });
 
 const addTokenHeader = () => {
     api.defaults.headers.common["Authorization"] = `Bearer ${sessionStorage.getItem("Token")}`;
